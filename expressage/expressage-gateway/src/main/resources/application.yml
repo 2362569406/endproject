@@ -1,0 +1,17 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: gateway-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+zuul:
+  routes:
+    warehouse-service:
+      path: /warehouse/**
+      serviceId: warehouse-service
+  prefix: /api
+  add-host-header: true
+  sensitive-headers:

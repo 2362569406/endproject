@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759fd9f6-a82c-4ec5-abee-4ec2f04ab99e" name="Default Changelist" comment="" />
+    <list default="true" id="759fd9f6-a82c-4ec5-abee-4ec2f04ab99e" name="Default Changelist" comment="添加仓库微服务，且能实现基本功能">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/expressage-eureka/target/" />
@@ -20,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/expressage-warehouse/expressage-Interface/target/" />
     <ignored path="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-Service/target/" />
     <ignored path="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-Interface/target/" />
+    <ignored path="$PROJECT_DIR$/expressage-gateway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,38 +78,38 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="35" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="19" />
+          <entry key="java" value="41" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="20" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="35" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="19" />
+          <entry key="JAVA" value="41" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="20" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="java" value="1812" />
+          <entry key="java" value="1870" />
           <entry key="properties" value="188" />
           <entry key="txt" value="47" />
-          <entry key="xml" value="556" />
-          <entry key="yml" value="104" />
+          <entry key="xml" value="579" />
+          <entry key="yml" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1812" />
+          <entry key="JAVA" value="1870" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="Properties" value="188" />
-          <entry key="XML" value="556" />
-          <entry key="YAML" value="104" />
+          <entry key="XML" value="579" />
+          <entry key="YAML" value="244" />
         </counts>
       </usages-collector>
     </session>
@@ -111,24 +117,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/service/WarehouseService.java">
+        <entry file="file://$PROJECT_DIR$/expressage-gateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+            <state relative-caret-position="418">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expressage-gateway/src/main/java/com/expressage/gateway/expressage/filter/GlobalCorsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expressage-gateway/src/main/java/com/expressage/gateway/GateWayApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1927#1928#0" expanded="true" />
-                <element signature="e#1964#1965#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/dao/WarehouseMapper.java">
+        <entry file="file://$PROJECT_DIR$/expressage-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expressage-common/src/main/java/com/expressage/common/excpetion/WarehouseException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/web/WarehouseController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,24 +191,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/web/WarehouseController.java">
+        <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/service/WarehouseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="175">
+              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-interface/src/main/java/com/expressage/entity/Warehouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1927#1928#0" expanded="true" />
+                <element signature="e#1982#1983#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,6 +257,10 @@
         <option value="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/dao/WarehouseMapper.java" />
         <option value="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/service/WarehouseService.java" />
         <option value="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/web/WarehouseController.java" />
+        <option value="$PROJECT_DIR$/expressage-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/expressage-gateway/src/main/java/com/expressage/gateway/GateWayApp.java" />
+        <option value="$PROJECT_DIR$/expressage-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/expressage-gateway/src/main/java/com/expressage/gateway/expressage/filter/GlobalCorsConfig.java" />
       </list>
     </option>
   </component>
@@ -247,7 +295,7 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="335" />
     <option name="y" value="22" />
     <option name="width" value="980" />
@@ -276,6 +324,57 @@
               <item name="expressage" type="462c0819:PsiDirectoryNode" />
               <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,7 +388,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586863647995" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586878355324" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wuliu/springcloud_lx_eureka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -303,6 +402,7 @@
       <recent name="D:\code\endCode\endproject\expressage" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.expressage.gateway.expressage.filter" />
       <recent name="com.expressage.common.ov" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -342,6 +442,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GateWayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="expressage-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.expressage.gateway.GateWayApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WarehouseApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="expressage-warehouse-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.expressage.WarehouseApp" />
@@ -352,6 +459,7 @@
     <list>
       <item itemvalue="Spring Boot.EurekaApp" />
       <item itemvalue="Spring Boot.WarehouseApp" />
+      <item itemvalue="Spring Boot.GateWayApp" />
     </list>
     <recent_temporary>
       <list>
@@ -371,7 +479,7 @@
       <updated>1586779044373</updated>
       <workItem from="1586779050874" duration="242000" />
       <workItem from="1586779785292" duration="10866000" />
-      <workItem from="1586829114312" duration="19941000" />
+      <workItem from="1586829114312" duration="24775000" />
     </task>
     <task id="LOCAL-00001" summary="最原始框架">
       <created>1586780210195</created>
@@ -405,9 +513,9 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31049000" />
+    <option name="totallyTimeSpent" value="35883000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -442,7 +550,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32903227" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32903227" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32903227" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32741934" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32419354" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="2" weight="0.2624811" />
@@ -580,16 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expressage-common/src/main/java/com/expressage/common/excpetion/WarehouseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -611,50 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/WarehouseApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-interface/src/main/java/com/expressage/entity/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/service/WarehouseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1927#1928#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,12 +726,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/web/WarehouseController.java">
+    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-interface/src/main/java/com/expressage/entity/Warehouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/WarehouseApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-common/src/main/java/com/expressage/common/excpetion/WarehouseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-gateway/src/main/java/com/expressage/gateway/GateWayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-gateway/src/main/java/com/expressage/gateway/expressage/filter/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/web/WarehouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/java/com/expressage/service/WarehouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
           </folding>
         </state>
       </provider>

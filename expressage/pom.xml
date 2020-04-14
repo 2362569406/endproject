@@ -11,6 +11,7 @@
         <module>expressage-eureka</module>
         <module>expressage-common</module>
         <module>expressage-warehouse</module>
+        <module>expressage-gateway</module>
     </modules>
     <packaging>pom</packaging>
 
