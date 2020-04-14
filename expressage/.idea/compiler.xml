@@ -8,7 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="expressage-common" />
         <module name="expressage-eureka" />
+        <module name="expressage-warehouse-interface" />
+        <module name="expressage-warehouse-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="expressage-warehouse" target="1.8" />
+      <module name="expressage-warehouse-Interface" target="1.8" />
+      <module name="expressage-warehouse-Service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

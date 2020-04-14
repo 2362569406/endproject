@@ -10,6 +10,7 @@
     <modules>
         <module>expressage-eureka</module>
         <module>expressage-common</module>
+        <module>expressage-warehouse</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public enum BusinessEnum {
-    BRAND_LIST_NOT_FOUND(404,"企业列表不存在");
+public enum WarehouseEnum {
+    BRAND_LIST_NOT_FOUND(404,"仓库列表不存在");
     private int code;
     private String msg;
 }

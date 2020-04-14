@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE generatorConfiguration  
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"  
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">  
+<generatorConfiguration>  
+<!-- ���ݿ�����-->  
+    <classPathEntry  location="C:/Users/23625/Desktop/mysql-connector-java-3.1.11.jar"/>
+    <context id="DB2Tables"  targetRuntime="MyBatis3">  
+        <commentGenerator>  
+            <property name="suppressDate" value="true"/>  
+            <!-- �Ƿ�ȥ���Զ����ɵ�ע�� true���� �� false:�� -->  
+            <property name="suppressAllComments" value="true"/>  
+        </commentGenerator>  
+        <!--数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" 
+						connectionURL="jdbc:mysql://175.24.9.43:3306/wuliu"
+						userId="root" 
+						password="pxswzt">
+        </jdbcConnection>  
+        <javaTypeResolver>  
+            <property name="forceBigDecimals" value="false"/>  
+        </javaTypeResolver>  
+        <!-- 实体-->
+        <javaModelGenerator targetPackage="com.expressage.entity" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>  
+            <property name="trimStrings" value="true"/>  
+        </javaModelGenerator>  
+        <!-- mapper文件-->
+        <!--<sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="false"/>  
+        </sqlMapGenerator>-->
+        <!-- dao层-->
+        <!--<javaClientGenerator type="XMLMAPPER" targetPackage="org.java.dao" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>  
+        </javaClientGenerator> -->
+        <!-- 表名-->
+        <table tableName="warehouse"
+		       domainObjectName="Warehouse"
+			   enableCountByExample="false" 
+			   enableUpdateByExample="false" 
+			   enableDeleteByExample="false" 
+			   enableSelectByExample="false" 
+			   selectByExampleQueryId="false"></table>
+    </context>  
+</generatorConfiguration>  
