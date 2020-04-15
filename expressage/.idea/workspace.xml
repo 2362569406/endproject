@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759fd9f6-a82c-4ec5-abee-4ec2f04ab99e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-interface/src/main/java/com/expressage/entity/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-interface/src/main/java/com/expressage/entity/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/expressage-warehouse/expressage-warehouse-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,7 +82,7 @@
           <entry key="iml" value="2" />
           <entry key="java" value="63" />
           <entry key="properties" value="5" />
-          <entry key="xml" value="32" />
+          <entry key="xml" value="34" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
@@ -96,7 +91,7 @@
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="63" />
           <entry key="Properties" value="5" />
-          <entry key="XML" value="32" />
+          <entry key="XML" value="34" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
@@ -105,7 +100,7 @@
           <entry key="dummy" value="19" />
           <entry key="java" value="2596" />
           <entry key="properties" value="189" />
-          <entry key="txt" value="62" />
+          <entry key="txt" value="71" />
           <entry key="xml" value="620" />
           <entry key="yml" value="304" />
         </counts>
@@ -113,7 +108,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2596" />
-          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="PLAIN_TEXT" value="90" />
           <entry key="Properties" value="189" />
           <entry key="XML" value="620" />
           <entry key="YAML" value="304" />
@@ -132,15 +127,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/expressage-user/expressage-user-service/src/main/java/org/user/service/web/UserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="339">
               <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19411" />
           </provider>
         </entry>
       </file>
@@ -323,69 +325,13 @@
             <path>
               <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
               <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
               <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage-warehouse-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="expressage" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-user" type="462c0819:PsiDirectoryNode" />
+              <item name="expressage-user-interface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,7 +349,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586969876154" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586970123980" />
     <property name="last_opened_file_path" value="D:/GameDownload/me/endproject/expressage" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -507,7 +453,7 @@
       <workItem from="1586829114312" duration="25224000" />
       <workItem from="1586879465022" duration="96000" />
       <workItem from="1586922394223" duration="287000" />
-      <workItem from="1586922698767" duration="16825000" />
+      <workItem from="1586922698767" duration="17072000" />
     </task>
     <task id="LOCAL-00001" summary="最原始框架">
       <created>1586780210195</created>
@@ -551,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586922814763</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="用户注册">
+      <created>1586969977120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586969977120</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53540000" />
+    <option name="totallyTimeSpent" value="53787000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -568,7 +521,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -587,12 +539,12 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32903227" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32419354" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.42903227" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.42903227" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="2" weight="0.2473525" />
@@ -608,6 +560,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -618,7 +596,8 @@
     <MESSAGE value="添加仓库微服务，且能实现基本功能" />
     <MESSAGE value="添加网关" />
     <MESSAGE value="添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
+    <MESSAGE value="用户注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户注册" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -935,12 +914,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/expressage-user/expressage-user-service/src/main/java/org/user/service/web/UserInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="339">
           <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19411" />
       </provider>
     </entry>
   </component>
