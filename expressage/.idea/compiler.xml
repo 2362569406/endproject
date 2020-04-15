@@ -9,6 +9,8 @@
         <module name="expressage-common" />
         <module name="expressage-eureka" />
         <module name="expressage-gateway" />
+        <module name="expressage-user-interface" />
+        <module name="expressage-user-service" />
         <module name="expressage-warehouse-interface" />
         <module name="expressage-warehouse-service" />
       </profile>

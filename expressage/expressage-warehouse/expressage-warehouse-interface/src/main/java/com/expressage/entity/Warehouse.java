@@ -7,13 +7,14 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 import java.util.Date;
 
 @Table(name = "warehouse")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Warehouse {
+public class Warehouse implements Serializable {
     @Id
     private Integer warehouseId;
 

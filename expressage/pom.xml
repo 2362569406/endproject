@@ -12,6 +12,7 @@
         <module>expressage-common</module>
         <module>expressage-warehouse</module>
         <module>expressage-gateway</module>
+        <module>expressage-user</module>
     </modules>
     <packaging>pom</packaging>
 
