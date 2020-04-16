@@ -250,7 +250,7 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="335" />
     <option name="y" value="22" />
     <option name="width" value="980" />
@@ -287,7 +287,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587029254082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587029318874" />
     <property name="last_opened_file_path" value="D:/GameDownload/me/endproject/expressage" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -329,20 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApp">
-    <configuration name="EurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="expressage-eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.expressage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.expressage.EurekaApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="GateWayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="expressage-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.expressage.gateway.GateWayApp" />
@@ -368,13 +355,7 @@
       <item itemvalue="Spring Boot.WarehouseApp" />
       <item itemvalue="Spring Boot.UserApp" />
       <item itemvalue="Spring Boot.GateWayApp" />
-      <item itemvalue="Spring Boot.EurekaApp" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.EurekaApp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

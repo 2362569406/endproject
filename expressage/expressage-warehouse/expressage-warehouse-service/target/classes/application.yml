@@ -1,0 +1,18 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: warehouse-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://175.24.9.43:3306/wuliu
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: pxswzt
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+
+mybatis:
+  type-aliases-package: com.expressage.entity
