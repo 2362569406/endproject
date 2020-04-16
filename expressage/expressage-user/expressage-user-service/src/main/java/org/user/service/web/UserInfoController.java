@@ -3,9 +3,7 @@ package org.user.service.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.user.pojo.UserInfo;
 import org.user.service.service.UserInfoService;
 
@@ -14,6 +12,22 @@ import org.user.service.service.UserInfoService;
 public class UserInfoController {
     @Autowired
     private UserInfoService userInfoService;
+
+    /**
+     * 登录
+     * @param username
+     * @param password
+     * @return
+     */
+    @GetMapping("/login")
+    public ResponseEntity<UserInfo> Loning(@RequestParam("username")String username
+            ,@RequestParam("password")String password){
+        UserInfo login = userInfoService.Login(username, password);
+        if (login == null){
+            return ResponseEntity.badRequest().build();
+        }
+        return ResponseEntity.ok(login);
+    }
 
     /**
      * 注册

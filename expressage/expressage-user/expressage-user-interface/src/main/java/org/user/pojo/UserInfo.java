@@ -17,12 +17,13 @@ public class UserInfo implements Serializable {
     @Id
     private Integer userId;
     private String userName;
-    private String UserPwd;
+    @JsonIgnore
+    private String userPwd;
     private String userDepartment;
     @JsonIgnore
     private String salt;
     @JsonIgnore
-    private String Reserve2;
+    private String reserve2;
     @JsonIgnore
-    private String Reserve3;
+    private String reserve3;
 }
