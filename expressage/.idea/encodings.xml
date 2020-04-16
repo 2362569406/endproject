@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/expressage-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expressage-euk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expressage-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expressage-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/expressage-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/expressage-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/expressage-user" charset="UTF-8" />

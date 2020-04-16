@@ -7,6 +7,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
 zuul:
   routes:
     warehouse-service:
@@ -15,6 +18,3 @@ zuul:
   prefix: /api
   add-host-header: true
   sensitive-headers:
-  host:
-    connect-timeout-millis: 3000
-    socket-timeout-millis: 3000
