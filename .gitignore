@@ -1,0 +1,11 @@
+/expressage/*.iml
+/expressage/expressage-common/*.iml
+/expressage/expressage-euk/*.iml
+/expressage/expressage-gateway/*.iml
+/expressage/expressage-user/*.iml
+/expressage/expressage-warehouse/*.iml
+/expressage/expressage-user/expressage-user-service/*.iml
+/expressage/expressage-warehouse/expressage-warehouse-interface/*.iml
+/expressage/expressage-warehouse/expressage-warehouse-service/*.iml
+/.idea/
+/expressage/.idea/
